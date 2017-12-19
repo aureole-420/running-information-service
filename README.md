@@ -13,10 +13,10 @@ information.
 
 
 To launch the application:
-  * For mac/win user, start `docker-quickstart terminal`
-      ** For mac users, run `docker-machine restart default` then `eval $(docker-machine env default)`
-  * cd to /running-information-service. Run `docker-compose up`
-  * 
-  * in the same directory run `mvn clean install` to compile the maven project;
+* For mac/win user, start `docker-quickstart terminal`
+      * For mac users, run `docker-machine restart default` then `eval $(docker-machine env default)`
+* cd to /running-information-service. Run `docker-compose up`
+* 
+* in the same directory run `mvn clean install` to compile the maven project;
 
 
