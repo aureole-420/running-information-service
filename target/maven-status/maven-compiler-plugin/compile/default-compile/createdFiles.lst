@@ -1,0 +1,7 @@
+demo/rest/RunningInformationRestController.class
+demo/RunningInformationServiceApplication.class
+demo/service/RunningInformationServiceImpl.class
+demo/domain/RunningInformation.class
+demo/domain/RunningInformationRepository.class
+demo/service/RunningInformationService.class
+demo/domain/RunningInformation$HealthWarningLevel.class
