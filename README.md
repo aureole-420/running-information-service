@@ -16,7 +16,9 @@ To launch the application:
 * For mac/win user, start `docker-quickstart terminal`
   * For mac users, run `docker-machine restart default` then `eval $(docker-machine env default)`
 * cd to `/running-information-service`. Run `docker-compose up` to start the docker container for mysql.
-* cd to `/target` 
 * in the same directory run `mvn clean install` to compile the maven project;
+* cd to subdirectory `/target` and run `java -jar *.jar` to start a tomcat server (port 8080) accessible through http request.
+
+
 
 
