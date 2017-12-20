@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f18a9858-95c8-447e-ba49-2fd342cec31f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/demo/domain/UserInfo.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/domain/RunningInformation.java" afterPath="$PROJECT_DIR$/src/main/java/demo/domain/RunningInformation.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/domain/RunningInformationRepository.java" afterPath="$PROJECT_DIR$/src/main/java/demo/domain/RunningInformationRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/rest/RunningInformationRestController.java" afterPath="$PROJECT_DIR$/src/main/java/demo/rest/RunningInformationRestController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/service/RunningInformationService.java" afterPath="$PROJECT_DIR$/src/main/java/demo/service/RunningInformationService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/service/RunningInformationServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/demo/service/RunningInformationServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/domain/RunningInformation.class" afterPath="$PROJECT_DIR$/target/classes/demo/domain/RunningInformation.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/domain/RunningInformationRepository.class" afterPath="$PROJECT_DIR$/target/classes/demo/domain/RunningInformationRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/rest/RunningInformationRestController.class" afterPath="$PROJECT_DIR$/target/classes/demo/rest/RunningInformationRestController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/service/RunningInformationService.class" afterPath="$PROJECT_DIR$/target/classes/demo/service/RunningInformationService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/service/RunningInformationServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/demo/service/RunningInformationServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/domain/UserInfo.java" afterPath="$PROJECT_DIR$/src/main/java/demo/domain/UserInfo.java" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change beforePath="$PROJECT_DIR$/target/running-information-analysis-service-1.0.0.BUILD-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/running-information-analysis-service-1.0.0.BUILD-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/target/running-information-analysis-service-1.0.0.BUILD-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/running-information-analysis-service-1.0.0.BUILD-SNAPSHOT.jar.original" />
     </list>
@@ -108,8 +96,8 @@
       <file leaf-file-name="UserInfo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/demo/domain/UserInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -422,12 +410,12 @@
       <option name="presentableId" value="Default" />
       <updated>1513631488251</updated>
       <workItem from="1513631491993" duration="18357000" />
-      <workItem from="1513737653442" duration="6777000" />
+      <workItem from="1513737653442" duration="7266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25134000" />
+    <option name="totallyTimeSpent" value="25623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="23" width="1385" height="877" extended-state="6" />
@@ -745,8 +733,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demo/domain/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

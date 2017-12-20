@@ -9,11 +9,13 @@ import javax.persistence.*;
 @Data
 public class UserInfo {
 
-    @Id
-    @GeneratedValue
-    @Column(name = "user_id")
-    private Long id;
+//    @Id
+//    @GeneratedValue
+//    @Column(name = "user_id")
+//    private Long id;
 
+    @Id
+    @Column(name = "user_id")
     private String username;
 
     private String address;
