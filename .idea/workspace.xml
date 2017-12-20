@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f18a9858-95c8-447e-ba49-2fd342cec31f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/domain/RunningInformationRepository.java" afterPath="$PROJECT_DIR$/src/main/java/demo/domain/RunningInformationRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/rest/RunningInformationRestController.java" afterPath="$PROJECT_DIR$/src/main/java/demo/rest/RunningInformationRestController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/service/RunningInformationService.java" afterPath="$PROJECT_DIR$/src/main/java/demo/service/RunningInformationService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/service/RunningInformationServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/demo/service/RunningInformationServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/domain/RunningInformationRepository.class" afterPath="$PROJECT_DIR$/target/classes/demo/domain/RunningInformationRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/rest/RunningInformationRestController.class" afterPath="$PROJECT_DIR$/target/classes/demo/rest/RunningInformationRestController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/service/RunningInformationService.class" afterPath="$PROJECT_DIR$/target/classes/demo/service/RunningInformationService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/service/RunningInformationServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/demo/service/RunningInformationServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/target/running-information-analysis-service-1.0.0.BUILD-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/running-information-analysis-service-1.0.0.BUILD-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/target/running-information-analysis-service-1.0.0.BUILD-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/running-information-analysis-service-1.0.0.BUILD-SNAPSHOT.jar.original" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -405,12 +393,12 @@
       <option name="presentableId" value="Default" />
       <updated>1513631488251</updated>
       <workItem from="1513631491993" duration="18357000" />
-      <workItem from="1513737653442" duration="3910000" />
+      <workItem from="1513737653442" duration="4150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22267000" />
+    <option name="totallyTimeSpent" value="22507000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="23" width="1385" height="877" extended-state="6" />
