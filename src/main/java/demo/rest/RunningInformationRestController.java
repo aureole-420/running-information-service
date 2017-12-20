@@ -33,18 +33,38 @@ public class RunningInformationRestController {
         runningInformationService.deleteAll();
     }
 
+//    @RequestMapping(value = "/runningInformation/users", method = RequestMethod.GET)
+//    public Page<RunningInformation> findByUsername(@RequestParam("username") String username, @RequestParam("page") int page, @RequestParam("size") int size) {
+//        return runningInformationService.findByUsername(username, new PageRequest(page, size));
+//    }
+
     @RequestMapping(value = "/runningInformation/users", method = RequestMethod.GET)
-    public Page<RunningInformation> findByUsername(@RequestParam("username") String username, @RequestParam("page") int page, @RequestParam("size") int size) {
-        return runningInformationService.findByUsername(username, new PageRequest(page, size));
+    public List<RunningInformation> findByUsername(@RequestParam("username") String username) {
+        return runningInformationService.findByUsername(username);
     }
 
+//    @RequestMapping(value = "/runningInformation/runningId", method = RequestMethod.GET)
+//    public Page<RunningInformation> findByRunningId(@RequestParam("runningId") String runningId, @RequestParam("page") int page, @RequestParam("size") int size) {
+//        return runningInformationService.findByRunningId(runningId, new PageRequest(page, size));
+//    }
+
     @RequestMapping(value = "/runningInformation/runningId", method = RequestMethod.GET)
-    public Page<RunningInformation> findByRunningId(@RequestParam("runningId") String runningId, @RequestParam("page") int page, @RequestParam("size") int size) {
-        return runningInformationService.findByRunningId(runningId, new PageRequest(page, size));
+    public List<RunningInformation> findByRunningId(@RequestParam("runningId") String runningId) {
+        return runningInformationService.findByRunningId(runningId);
     }
 
     @RequestMapping(value = "/runningInformation/OrderByHWL", method = RequestMethod.GET)
-    public Page<RunningInformation> findAllByOrderByHealthWarningLevelDesc(@RequestParam("page") int page, @RequestParam("size") int size) {
-        return runningInformationService.findAllByOrderByHealthWarningLevelDesc(new PageRequest(page, size));
+    public Page<RunningInformation> findAllByOrderByHealthWarningLevelDesc(@RequestParam("page") int page) {
+        return runningInformationService.findAllByOrderByHealthWarningLevelDesc(new PageRequest(page, 2));
+    }
+
+    @RequestMapping(value = "/deleteBy/", method = RequestMethod.DELETE)
+    public void deleteByRunningId(@RequestParam("runningId") String runningId) {
+        runningInformationService.deleteByRunningId(runningId);
+    }
+
+    @RequestMapping(value = "/removeBy/{username}", method = RequestMethod.DELETE)
+    public void removeByUsername(@PathVariable("username") String username) {
+        runningInformationService.removeByUsername(username);
     }
 }

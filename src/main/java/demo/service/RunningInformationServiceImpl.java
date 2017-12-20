@@ -33,18 +33,42 @@ public class RunningInformationServiceImpl implements RunningInformationService 
         repository.deleteAll();
     }
 
+//    @Override
+//    public Page<RunningInformation> findByUsername(String username, Pageable pageable) {
+//        return repository.findByUsername(username, pageable);
+//    }
+
     @Override
-    public Page<RunningInformation> findByUsername(String username, Pageable pageable) {
-        return repository.findByUsername(username, pageable);
+    public List<RunningInformation> findByUsername(String username) {
+        return repository.findByUsername(username);
     }
 
     @Override
-    public Page<RunningInformation> findByRunningId(String runningId, Pageable pageable) {
-        return repository.findByRunningId(runningId, pageable);
+    public List<RunningInformation> findByRunningId(String runningId) {
+        return repository.findByRunningId(runningId);
     }
+
+//    @Override
+//    public Page<RunningInformation> findByRunningId(String runningId, Pageable pageable) {
+//        return repository.findByRunningId(runningId, pageable);
+//    }
+
+
 
     @Override
     public Page<RunningInformation> findAllByOrderByHealthWarningLevelDesc(Pageable pageable) {
         return repository.findAllByOrderByHeartRateDesc(pageable);
     }
+
+    @Override
+    public void deleteByRunningId(String runningId) {
+        repository.deleteByRunningId(runningId);
+    }
+
+    @Override
+    public void removeByUsername(String username) {
+        repository.removeByUsername(username);
+    }
+
+
 }
