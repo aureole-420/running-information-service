@@ -14,7 +14,8 @@ import java.util.List;
  */
 public interface RunningInformationRepository extends JpaRepository<RunningInformation, Long>{
     //Page<RunningInformation> findByUsername(@Param("username") String username, Pageable pageable);
-    List<RunningInformation> findByUsername(@Param("username") String username);
+    //List<RunningInformation> findByUsername(@Param("username") String username);
+    List<RunningInformation> findByUserInfoUsername(@Param("username") String username);
 
     // Page<RunningInformation> findByRunningId(@Param("runningId") String runningId, Pageable pageable);
     List<RunningInformation> findByRunningId(@Param("runningId") String runningId);
@@ -26,5 +27,5 @@ public interface RunningInformationRepository extends JpaRepository<RunningInfor
 
 
     @Transactional
-    List<RunningInformation> removeByUsername(@Param("username") String username);
+    List<RunningInformation> removeByUserInfoUsername(@Param("username") String username);
 }

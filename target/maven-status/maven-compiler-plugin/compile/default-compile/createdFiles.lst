@@ -1,3 +1,4 @@
+demo/domain/UserInfo.class
 demo/rest/RunningInformationRestController.class
 demo/RunningInformationServiceApplication.class
 demo/service/RunningInformationServiceImpl.class

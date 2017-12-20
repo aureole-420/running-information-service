@@ -14,7 +14,7 @@ public interface RunningInformationService {
     void deleteAll();
 
     //Page<RunningInformation> findByUsername(String username, Pageable pageable);
-    List<RunningInformation> findByUsername(String username);
+    List<RunningInformation> findByUserInfoUsername(String username);
 
     //Page<RunningInformation> findByRunningId(String runningId, Pageable pageable);
     List<RunningInformation> findByRunningId(String runningId);
@@ -23,5 +23,5 @@ public interface RunningInformationService {
 
     void deleteByRunningId(String runningId);
 
-    void removeByUsername(String username);
+    void removeByUserInfoUsername(String username);
 }

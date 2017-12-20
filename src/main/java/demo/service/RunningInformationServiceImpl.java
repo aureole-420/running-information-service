@@ -39,8 +39,8 @@ public class RunningInformationServiceImpl implements RunningInformationService 
 //    }
 
     @Override
-    public List<RunningInformation> findByUsername(String username) {
-        return repository.findByUsername(username);
+    public List<RunningInformation> findByUserInfoUsername(String username) {
+        return repository.findByUserInfoUsername(username);
     }
 
     @Override
@@ -66,8 +66,8 @@ public class RunningInformationServiceImpl implements RunningInformationService 
     }
 
     @Override
-    public void removeByUsername(String username) {
-        repository.removeByUsername(username);
+    public void removeByUserInfoUsername(String username) {
+        repository.removeByUserInfoUsername(username);
     }
 
 

@@ -40,7 +40,7 @@ public class RunningInformationRestController {
 
     @RequestMapping(value = "/runningInformation/users", method = RequestMethod.GET)
     public List<RunningInformation> findByUsername(@RequestParam("username") String username) {
-        return runningInformationService.findByUsername(username);
+        return runningInformationService.findByUserInfoUsername(username);
     }
 
 //    @RequestMapping(value = "/runningInformation/runningId", method = RequestMethod.GET)
@@ -65,6 +65,6 @@ public class RunningInformationRestController {
 
     @RequestMapping(value = "/removeBy/{username}", method = RequestMethod.DELETE)
     public void removeByUsername(@PathVariable("username") String username) {
-        runningInformationService.removeByUsername(username);
+        runningInformationService.removeByUserInfoUsername(username);
     }
 }

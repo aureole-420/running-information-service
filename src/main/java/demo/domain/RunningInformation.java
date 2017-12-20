@@ -45,8 +45,12 @@ public class RunningInformation {
     private int heartRate;
 
     private Date timestamp;
-    private String username;
-    private String address;
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "user_id", referencedColumnName = "user_id")
+    private UserInfo userInfo;
+    //private String username;
+    //private String address;
 
     @Transient
     private HealthWarningLevel healthWarningLevel;
@@ -62,7 +66,12 @@ public class RunningInformation {
     }
 
     @JsonCreator
-    public RunningInformation(@JsonProperty("runningId") String runningId, @JsonProperty("heartRate") int heartRate) {
+    public RunningInformation(@JsonProperty("runningId") String runningId,
+                              @JsonProperty("heartRate") int heartRate,
+                              @JsonProperty("username") String username,
+                              @JsonProperty("address") String address) {
+
+        this.userInfo = new UserInfo(username, address);
         this.runningId = runningId;
         // trial:
         this.heartRate = (int) (60 + 140 * Math.random()); // random integer between 60 and 200

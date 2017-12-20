@@ -2,5 +2,6 @@
 /Users/yuhuitong/workspace/running-information-analysis-service/src/main/java/demo/domain/RunningInformationRepository.java
 /Users/yuhuitong/workspace/running-information-analysis-service/src/main/java/demo/domain/RunningInformation.java
 /Users/yuhuitong/workspace/running-information-analysis-service/src/main/java/demo/service/RunningInformationService.java
+/Users/yuhuitong/workspace/running-information-analysis-service/src/main/java/demo/domain/UserInfo.java
 /Users/yuhuitong/workspace/running-information-analysis-service/src/main/java/demo/service/RunningInformationServiceImpl.java
 /Users/yuhuitong/workspace/running-information-analysis-service/src/main/java/demo/rest/RunningInformationRestController.java
